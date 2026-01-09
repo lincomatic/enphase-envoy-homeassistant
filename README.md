@@ -1,11 +1,12 @@
 # Enphase Envoy Home Assistant Integration
 
-A custom Home Assistant integration for older Enphase Envoy-R solar gateway devices that uses web scraping to extract data from the device's web interface.
+A custom Home Assistant integration for older Enphase Envoy models that lack a REST API. It uses web scraping to extract data from the Envoy's web interface.
 
 ## Features
 
 - Scrapes data from Envoy-R web interface (no API required)
-- Works with older Envoy-R firmware versions
+- Works with older Envoy models running firmware before 3.9 which lack a REST API
+- Tested on my Envoy running firmware R3.7.31
 - Real-time solar production monitoring
 - Energy consumption tracking
 - Daily and lifetime production statistics
