@@ -1,0 +1,18 @@
+blueprint:
+  name: Enphase Dashboard
+  description: Automatically generated dashboard for Enphase Envoy
+  domain: lovelace
+
+views:
+  - title: Enphase Envoy
+    path: overview
+    cards:
+      - type: entities
+        title: Envoy Entities
+        entities:
+          - type: custom:auto-entities
+            card:
+              type: entities
+            filter:
+              include:
+                - integration: enphase_envoy
