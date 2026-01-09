@@ -1,7 +1,7 @@
 blueprint:
   name: Enphase Dashboard
   description: Automatically generated dashboard for Enphase Envoy
-  domain: lovelace
+  domain: enphase_envoy
 
 views:
   - title: Enphase Envoy
