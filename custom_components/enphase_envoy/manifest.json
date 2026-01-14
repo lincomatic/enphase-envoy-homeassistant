@@ -1,7 +1,7 @@
 {
   "domain": "enphase_envoy",
-  "name": "Enphase Envoy",
-  "version": "1.0.0",
+  "name": "Enphase (Old) Envoy",
+  "version": "1.0.1",
   "documentation": "https://github.com/yourusername/enphase-envoy-homeassistant",
   "issue_tracker": "https://github.com/yourusername/enphase-envoy-homeassistant/issues",
   "requirements": ["beautifulsoup4>=4.11.0", "lxml>=4.9.0"],

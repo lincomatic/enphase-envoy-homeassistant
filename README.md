@@ -1,4 +1,4 @@
-# Enphase Envoy Home Assistant Integration
+# Enphase (Old) Envoy Home Assistant Integration
 
 A custom Home Assistant integration for older Enphase Envoy models that lack a REST API. It uses web scraping to extract data from the Envoy's web interface.
 
