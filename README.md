@@ -52,7 +52,6 @@ This integration scrapes data from two pages:
 - **Today Energy** - Energy produced today (Wh)
 - **Week Energy** - Energy produced in the past week (Wh)
 - **Lifetime Energy** - Total energy produced since installation from /home page (Wh)
-- **Lifetime Energy Production** - Total energy produced since installation from /production page (Wh)
 
 ### System Information Sensors
 - **Inverters Online** - Number of microinverters currently online

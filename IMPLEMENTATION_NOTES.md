@@ -19,7 +19,6 @@ This integration uses web scraping to extract data from the Envoy-R web interfac
    - Currently generating power
    - Today's production
    - Past week production
-   - Lifetime production
    - System live since date
 
 ### Data Parsing

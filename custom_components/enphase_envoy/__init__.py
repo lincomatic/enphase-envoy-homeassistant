@@ -162,8 +162,6 @@ class EnvoyDataUpdateCoordinator(DataUpdateCoordinator):
                             data["today_energy"] = self._parse_energy_value(value)
                         elif label == "Past Week":
                             data["week_energy"] = self._parse_energy_value(value)
-                        elif label == "Since Installation":
-                            data["lifetime_energy_production"] = self._parse_energy_value(value)
             
             # Parse system live since date
             good_divs = soup.find_all("div", class_="good")
@@ -196,11 +194,11 @@ class EnvoyDataUpdateCoordinator(DataUpdateCoordinator):
         try:
             value = value.strip().upper()
             if "MWH" in value:
-                return float(value.replace("MWH", "").strip()) * 1000000
+                return float(value.replace("MWH", "").strip()) * 1000
             elif "KWH" in value:
-                return float(value.replace("KWH", "").strip()) * 1000
+                return float(value.replace("KWH", "").strip())
             elif "WH" in value:
-                return float(value.replace("WH", "").strip())
+                return float(value.replace("WH", "").strip()) / 1000
         except (ValueError, AttributeError) as err:
             _LOGGER.debug("Could not parse energy value '%s': %s", value, err)
         return None
