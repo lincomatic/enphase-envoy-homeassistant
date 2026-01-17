@@ -66,7 +66,7 @@ This integration scrapes data from two pages:
 ## Requirements
 
 - Home Assistant 2023.1 or newer
-- Enphase Envoy-R device on your local network
+- Enphase Envoy-R device on your local network with firmware older than 3.9
 - Network access to the Envoy web interface (typically port 80)
 - beautifulsoup4 and lxml libraries (automatically installed)
 
